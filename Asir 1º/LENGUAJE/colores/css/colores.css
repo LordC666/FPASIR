@@ -1,0 +1,145 @@
+/*------colores------*/
+
+.color{
+display:flex;
+justify-content:space-around;
+text-align: center;
+margin-right:300px;
+margin-left:300px;
+padding:50px 0;
+}
+
+
+.color_verde{
+	background-color:green;
+	
+}
+
+.color_naranja{
+	background-color:orange;
+	
+}
+
+.color_rosa{
+	background-color:pink;
+
+}
+
+a{
+	text-decoration: none;
+    color:black;
+    font-family:Helvetica;
+	font-size:medium;
+	text-align: center;
+}
+
+.cierre {
+	text-decoration: none;
+	color:white;
+	text-align: center;
+}
+
+/*------texto_colores------*/
+
+
+
+ #texto_verde{
+	display:none;
+
+}
+
+#texto_verde:target{
+	display:block;
+	background-color:greenyellow;
+	font-family:Helvetica;
+	font-size:medium;
+	text-align: center;
+	margin-right:450px;
+	margin-left:450px;
+	padding:40px 0;
+}
+
+#texto_naranja{
+	display:none;
+
+}
+
+#texto_naranja:target{
+	display:block;
+	background-color:orange;
+	font-family:Helvetica;
+	font-size:medium;
+	text-align: center;
+	margin-right:450px;
+	margin-left:450px;
+	padding:40px 0;
+}
+
+#texto_rosa{
+	display:none;
+
+}
+
+#texto_rosa:target{
+	display:block;
+	background-color:pink;
+	font-family:Helvetica;
+	font-size:medium;
+	text-align: center;
+	margin-right:450px;
+	margin-left:450px;
+	padding:40px 0;
+}
+
+/*------Formato_para_teléfonos------*/
+
+@media screen and (max-width: 400px){
+	.color{
+		display:flex;
+		justify-content:space-around;
+		text-align: center;
+		margin-right:50px;
+		margin-left:50px;
+		padding:30px 0;
+	}
+	a{
+		text-decoration: none;
+    	color:black;
+    	font-family:Helvetica;
+		font-size:small;
+		text-align: center;
+	}
+	#texto_verde:target{
+		display:block;
+		background-color:greenyellow;
+		font-family:Helvetica;
+		font-size:medium;
+		text-align: center;
+		margin-right:50px;
+		margin-left:50px;
+		padding:20px 0;
+	}
+
+	#texto_naranja:target{
+		display:block;
+		background-color:orange;
+		font-family:Helvetica;
+		font-size:medium;
+		text-align: center;
+		margin-right:50px;
+		margin-left:50px;
+		padding:20px 0;
+	}
+
+	#texto_rosa:target{
+		display:block;
+		background-color:pink;
+		font-family:Helvetica;
+		font-size:medium;
+		text-align: center;
+		margin-right:50px;
+		margin-left:50px;
+		padding:20px 0;
+	}
+}
+

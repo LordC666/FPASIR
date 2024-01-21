@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Funciones en JavaScript</title>
+    <script src="js/funciones.js"></script>
+  </head>
+  <body>
+    <h1>Funciones en JavaScript</h1>
+
+    <p>El resultado total es: <strong id="resultado"></strong></p>
+    <p>La fecha del día es: <strong id="resultado2"></strong></p>
+
+    <script>
+let x = prompt("Introduce el número base:");
+let n = prompt("Introduce la potencia:");
+
+try {
+  let resultado = potencia(x, n);
+  alert(x + " elevado a la potencia " + n + " es igual a " + resultado); 
+  document.getElementById("resultado").innerHTML = resultado;
+} catch (error) {
+  alert(error.message);
+
+}
+
+  let fecha = fechaHoy();
+  document.getElementById("resultado2").innerHTML = fecha;
+
+    </script>
+  </body>
+</html>

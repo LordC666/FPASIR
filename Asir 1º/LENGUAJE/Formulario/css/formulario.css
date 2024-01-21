@@ -1,0 +1,165 @@
+/*---formulario1---*/
+.img1{
+	display:flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	border: 3px solid black;
+}
+
+.bottom {
+	display:flex;
+	justify-content: center;
+}
+
+.amarillo{
+	text-decoration: none;
+  	color:grey;
+  	justify-content: space-around;
+  	background-color: yellow;
+  	margin-right: 8px;
+}
+
+.bottom a:hover{
+  color:yellow;
+  background-color: grey;
+}
+
+#movil{
+	display: none;
+}
+
+/*---formulario2---*/
+.borde{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	border: 3px solid black;
+}
+
+.pregunta{
+	color:#0D63BF;
+}
+
+select{
+	width:90px;
+	justify-content: center;
+}
+
+.range{
+	width:130px;
+	justify-content: center;
+}
+
+.catador{
+	display:flex;
+	justify-content: center;
+	margin-right:6px;
+}
+
+.dorado{
+	color:gold;
+}
+/*---formulario3---*/
+
+.borde1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  margin-left:15px;
+  border:3px solid black;
+}
+
+.izquierda{
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left:70px;
+}
+
+.izquierda div{
+	margin-bottom:8px;
+}
+
+.derecha{
+	 justify-content: space-between;
+}
+ 
+.derecha img{
+	justify-content: flex-end;
+   margin-top: -1000px;
+   margin-right:-200px;
+  	width: 130%;
+	height: 200%;
+}
+
+.columna {
+ color:white;
+ background-color:black;
+ text-align: center;
+ writing-mode: vertical-lr;
+ height: 100%;
+ margin-top: 10px;
+ transform: rotate(180deg);
+}
+
+.priv{
+	color:darkblue;
+}
+
+/*---movil---*/
+@media screen and (max-width: 600px){
+/*---mf1---*/
+#pag1{
+	display:none;
+}
+
+#movil{
+	display:flex;
+	flex-direction: column;
+}
+
+.part1{
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.colum{
+color:white;
+ background-color:black;
+ text-align: center;
+ width: 100%;
+}
+
+@font-face{
+	font-family:'adelia';
+	src: url("../fuentes/adelia.ttf");
+}
+
+.font{
+	font-family:'adelia';
+	font-size:4em;
+}
+/*---mf2---*/
+.part2{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.c1{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	border: 3px solid black;
+}
+/*---mf3---*/
+
+}
+

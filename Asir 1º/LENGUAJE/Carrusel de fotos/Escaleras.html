@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Ej1-Repaso</title>
+</head>
+<body>
+	<div class="escalera" id="escalera"></div>
+	<script type="text/javascript">
+		var peldanos = prompt("Ingrese el número de peldaños que dese...");
+
+		peldanos = parseInt(peldanos);
+
+		var ecsalera = "";
+		for (var i = 1; i <=peldanos; i++){
+			escalera += i + "<br>";
+
+		}
+
+		var escaleraElement = document.getElementById("escalera");
+		escaleraElement.innerHTML = escalera;
+
+	</script>
+	
+</body>
+</html>

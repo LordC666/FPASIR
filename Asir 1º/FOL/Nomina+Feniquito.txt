@@ -1,0 +1,148 @@
+SB=900€
+PConvenio=150€
+PTransporte=90€
+2Pagas extras al año =Salario base, prorrateadas mensualmente
+
+Contrato indefinido
+Antiguedad de 4,5 años
+Por IRPF se le retiene un 14%
+
+El despido es por causas objetivas y es efectivo el 13 de abril(22 dias)
+No a disfrutado de sus vacaciones este año
+
+
+1. Nómina Abril
+
+ Paga mensual 900+150+90+(900x2)= 1140€  
+
+900/30x12=360€
+150/30x12=60€
+90/30x12=36€
+
+360+60+36=456€
+
+2. Pagas extras
+
+Mes 900x2/12=150€ Dia 150/30=5€ LOs dias trabajados en abril 5x12=60€
+
+3. Vacaciones
+
+365-30   102x30/365=8.38dias  40x8.38=335,20€
+102-x
+
+Paga diaria 1140+150(pagas extras)-plus de transporte/30=40
+
+4º Feniquito
+
+Salario diario=((900*12)+(150*12)+(2*900))/365=39,45
+
+20*39,45*4,5=3550,50€
+
+TOTAL=45+60+335,20+3550,50=3990,70€
+
+
+-----------------------------------------------------------------
+
+PACO
+
+SB=1925€
+PJefatura=259€
+Dietas=136€
+3 Pagas Extras=Abril, Julio, Diciembre=Conceptos Salariales
+
+Contrato Temporal (1 Enero 2022)-->(17 Marzo 23)
+IRPF=12%
+Extinción x fin de contrato
+Este año a disfrutado 2 días de vacaciones.
+
+1º
+
+1925/30x17(dias currados del mes)=1090,83€
+259/30x17=€146,77
+136/30x17=77,07€
+
+=1314,67€
+
+Paga mensual=1925+259+136=2320€
+
+2º
+
+(259+1925)x3(pagas extras)/12=x€  x/30=y€  y x(por) 76(las pagas no son prorateadas)=1383,20€
+
+3º
+
+365-30     =6,25dias-2(dias de vacaciones disfrutados)=4,25
+76-x  
+
+1925+259+546(pagas extras)=2730€
+2730/30*4,25=386,75€
+
+4º INDENMIZACIÓN
+
+Salario anual:((1925*12)+(259*12)+(3*(1925+259)))=32760€ 
+
+Salario Diario=/365=89,75
+
+Ha trabajado 1 año + 3meses/12=1,25
+
+12*89,75*1.25=1346,25€
+
+TOTAL FINIQUITO= 1314,67+1383,2+386,75+1346,25=4430,87€
+
+------------------------------------------------------
+ELENA 
+
+SB=1654€
+PNocturnidad=309€
+PVestuario=76€
+3 pagas extra al año(abril,julio y diciembre)=salario base
+Despido colectivo
+Contrato desde 11 febrero 12 a 19 octubre 23(1d, 8m, 11y)
+Por IRPF 19%
+Ha disfrutado 18 días de vacaciones de año.
+
+1º
+
+Paga mensual: 1654+309+76=2039
+
+1654/30*19=1047,53
+309=195,70
+76=48,13
+
+1047,53+195,70+48,13=1291,37€
+
+CC=1291,37*(61,99                     NETO 942,05
+
+2º
+
+1654x1/12=137,83    137,83/30=4,59  4,59*319=1464,21€
+
+3º
+
+365-30   =26,219 dias    26,219-18días disfrurados=8,219 
+319-x 
+
+1654/30*8,219=453,14€
+
+4º
+
+QUANTÍA DE 20€
+
+Salario anual: 1654*12+309*12+76*12+3*1654=29430
+
+Salario diario:/365=80,63
+
+(1d, 8m, 11y)/12=11.674
+0,083
+
+80,63*11.674*12=11294,89€
+
+TOTAL Feniquito=14174,95€
+
+-----------------------------------------------------------------
+
+
+
+ 
+
+

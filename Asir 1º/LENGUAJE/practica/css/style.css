@@ -1,0 +1,221 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgb(234, 226, 116);
+}
+.cabecera img{
+    width: 20%;
+    height: auto;
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+    background-color: darkkhaki;
+}
+.links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.links a{
+    font-size: 23px;
+    padding-left: 47px;
+    text-decoration: none;
+    color: black;
+}.links a:hover{
+    color: rgb(109, 109, 109);
+}
+.men-ser{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 178, 139);
+}.men-ser ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}.men-ser a{
+    font-size: 20px;
+    padding-left: 60px;
+    text-decoration: none;
+    color: black;
+}
+.men-nos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 178, 139);
+}
+.men-nos ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.men-nos a{
+    font-size: 20px;
+    padding-left: 60px;
+    text-decoration: none;
+    color: black;
+}
+#submenu-serv{
+    display: none;
+}
+#submenu-serv:target{
+    display: flex;
+}
+#nosotros{
+    display: none;
+}#nosotros:target{
+    display: flex;
+}
+.part-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    background-color: lightgoldenrodyellow;
+}.part-1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    padding: 10px 8px;
+}.part-1-1 img{
+    width: 60%;
+    height: auto;
+}
+.part-1-2{
+    width: 60%;
+    padding: 10px 13px;
+}
+.part-1-2 h2{
+    font-size: 38px;
+}.part-1-2 p{
+    font-size: 29px;
+}
+.aportar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}.aportar h2{
+    text-align: center;
+    font-size: 38px;
+}.aportar p{
+    font-size: 29px;
+    text-align: justify;
+    padding: 0px 90px;
+}
+.mas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mas-uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+    background-color: beige;
+
+}.mas-uno h2{
+    text-align: center;
+    font-size: 34px;
+}.mas-uno p{
+    text-align: justify ;
+    font-size: 23px;
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 15px;
+}
+.aun-mas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+    background-color: lightsalmon;
+}.aun-mas h2{
+    text-align: center;
+    font-size: 34px;
+}.aun-mas p{
+    text-align: justify ;
+    font-size: 23px;
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 15px;
+}
+.conocer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    background-color: steelblue;
+}
+.conocer h2{
+    font-size: 32px;
+}
+.conocer p{
+    text-align: justify;
+    font-size: 28px;
+    width: 80%;
+    padding: 0px 20px;
+}
+.conocer button{
+    background-color: rgb(72, 72, 72);
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.conocer a{
+    text-decoration: none;
+    font-size: 27px;
+    color: rgb(188, 180, 143);
+}
+.conocer button:hover{
+    color: grey;
+}.conocer a:hover{
+    color: rgb(158, 219, 52);
+}
+
+.texto{
+    position: fixed;
+    background: rgb(136, 161, 163);
+    border: 2px solid black;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 15px;
+}
+.texteo p{
+    font-size: 20px;
+    text-align: justify;
+}
+.texteo button{
+    background-color: black;
+    padding: 20px 25px;
+    border: none;
+}.texteo a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+#privacidad:target{
+    display: none;
+
+}
