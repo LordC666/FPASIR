@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uppercase&lowercaseL</title>
+</head>
+<body>
+    <header>
+        <h2>Uppercase and Lowercase Letters</h2>
+    </header>
+    <form action="word_analizer.html" method="POST">
+        <label for="word">Introduzca solo una palabra</label>
+        <input type="text" maxlength="30" id="word" name="word" required>
+        
+    </form>
+        <button onclick="evaluateWord()">Analizar</button>
+        <p id="result"></p>
+    <script>
+        function evaluateWord() {  
+            let word = document.getElementById("word").value;
+            if ( /^[a-z]+$/.test(word) ) {
+                alert("Los carácteres son permisibles");
+                document.getElementById("result").innerHTML = "Solo tiene minúsculas";
+            } else if ( /^[A-Z]+$/.test(word) ) {
+                alert("Los carácteres son permisibles");
+                document.getElementById("result").innerHTML = "Solo tiene MAYÚSCULAS";
+            } else if (  /^[a-zA-Z]+$/.test(word) && /^[A-Z]+$/.test(word) ) {
+                alert("Los carácteres son permisibles");
+                document.getElementById("result").innerHTML = "Tiene tanto mayúsculas como minúsculas";
+
+            } else {
+                alert("Los carácteres NO son permisibles");
+                document.getElementById("result").innerHTML = "Solo se puede poner carácteres alfabéticos";
+
+            }
+
+        }
+    </script>
+</body>
+</html>
