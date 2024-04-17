@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count_down</title>
+</head>
+<body>
+    <header>   
+        <h2>Is the final count down...</h2>
+    </header>
+    <form action="count_down.html" method="POST">
+        <label for="num">Introdzca cualquier número</label>
+        <input type="number" id="num" name="num" required>
+    </form>
+    <button onclick="countDown()">Cuenta atrás</button>
+    <p id="result"></p>
+
+    <script>
+        function countDown() {
+            let num = Number(document.getElementById("num").value);
+            let result = "";
+            let i;
+            for ( i = num; i >= 0; i-- )  {
+                result = result + i + " ";
+            }
+            document.getElementById("result").innerHTML = 'Cuenta atrás: ' + result;
+        }
+    </script>
+    
+</body>
+</html>
