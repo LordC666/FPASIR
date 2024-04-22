@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/more_less.js"></script>
+    <title>More_Less</title>
+</head>
+<body>
+    <header>
+        <h2>Mayor o menor</h2>
+    </header>
+    <p>Introduce un caracter y te diremos si es mayor o menor al siguiente o si es igual</p>
+    <form action="./script/more_less.js">
+        <label for="num1">Primer Carácter</label>
+        <input type="number" id="num1" name="num1" required>
+        <label for="num2">Segundo Carácter</label>
+        <input type="number" id="num2" name="num2" required>
+    </form>        
+    <button onclick="comparation()">Comparar</button>
+    <p id="result"></p>
+</body>
+</html>
