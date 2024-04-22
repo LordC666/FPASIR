@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/positive_negative.js"></script>
+    <title>Positive_Negative</title>
+</head>
+<body>
+    <header>
+        <h2>Positivo o Negativo</h2>
+    </header>
+    
+    <p>Introduce un número y te diremos si es positivo, negativo o 0.</p>
+
+    <form action="./script/positive_negative.js">
+        <label for="num">Introduzza un número</label>
+        <input type="number" id="num" name="num" required>
+        <input type="button" onclick="research()" value="Comprobar">
+    </form>
+
+    <p id="result"></p>
+    
+</body>
+</html>
