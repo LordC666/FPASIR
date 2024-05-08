@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Hacemos referencia al archivo JS para que el formulario pueda llamar
+    a la función "impares()"-->
+    <script src="./script/ej1.js"></script>
+    <title>Lista_Descendente</title>
+</head>
+<body>
+    <header>
+        <h2>Lista Descendente</h2>
+    </header>
+<!--Ponemos un texto que nos diga que introduzcamos un número-->
+    <label name="num">Ingresa un número entero positivo:</label>
+    <br>
+<!--El valor que se introduzcá será un caracter numérico obligatoriamente
+    y el id de este valor es "num", además de que este es un campo obligatorio-->
+    <input type="number" name="num" id="num" required>
+<!--Este botón llama a la función "impares()" la cual se encuentra en el archivo
+    JS-->
+    <button onclick="impares()">Calcular</button>
+<!--Este párrafo se rellenará con el resultado de la función
+    ya que lo identificaremos con su id único-->
+    <p id="result"></p>
+    
+</body>
+</html>
