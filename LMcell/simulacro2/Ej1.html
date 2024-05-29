@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma números pares</title>
+</head>
+<body>
+    <!--Primero creamos un título-->
+    <header>
+        <h2>Suma de números pares</h2>
+    </header>
+    <!--Después hacemos un formulario que hace referencia al script en el propio código-->
+    <form action="#" method="get">
+        <label for="num">Ingresa un número entero pasitivo</label><br><br>
+        <!--Se introduce un valor numérico-->
+        <input type="number" name="num" id="num">
+    </form>
+    <!--Hacemos un botón que haga referencia a la función que hay dentro del script-->
+    <button onclick="suma_pares()">Calcular</button><br><br>
+    <!--párrafo donde se mostrará el resultado-->
+    <p id="result"></p>
+
+    <script>
+        // Creamos la función 
+        function suma_pares(){
+            // Hacemos una variable que almacena el valor numérico del formulario 
+            let num = Number(document.getElementById('num').value);
+            // Creamos la variable suma
+            let suma = 0;
+
+            // hacemos un bucle for en el cual creamos una variable "e" de valor inicial 1, 
+            //e es menor o igual a num y cada vez que se hace un bucle, el valor e se incrementa en 1
+            for (let e = 1; e <= num; e++) {
+                // Si e es un valor par hace una suma que aumenta el valor de suma
+                if (e % 2 === 0){
+                   suma += e ; // En caso que no se cumpla se pasa al siguiente número que será par
+                } 
+            }
+            // Una vez termina el bucle, usamos la variable suma y mostramos el resultado
+            document.getElementById('result').innerHTML = "La suma de los números pares es: " + suma;
+
+        }
+
+
+    </script>
+
+    
+</body>
+</html>

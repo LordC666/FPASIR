@@ -1,0 +1,31 @@
+-- Crear la tabla de libros
+CREATE TABLE libros (
+    titulo VARCHAR(100) PRIMARY KEY,
+    genero VARCHAR(50),
+    precio DECIMAL(10, 2)
+);
+
+-- Inserciones de ejemplo
+INSERT INTO libros (titulo, genero, precio) VALUES ('El señor de los anillos', 'Fantasía', 25.99);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Cien años de soledad', 'Realismo mágico', 20.50);
+INSERT INTO libros (titulo, genero, precio) VALUES ('1984', 'Ciencia ficción', 15.75);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Orgullo y prejuicio', 'Romance', 18.99);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Harry Potter y la piedra filosofal', 'Fantasía', 22.99);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Crónica de una muerte anunciada', 'Realismo mágico', 17.25);
+INSERT INTO libros (titulo, genero, precio) VALUES ('El código Da Vinci', 'Misterio', 14.99);
+INSERT INTO libros (titulo, genero, precio) VALUES ('La sombra del viento', 'Misterio', 19.50);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Moby Dick', 'Aventura', 21.25);
+INSERT INTO libros (titulo, genero, precio) VALUES ('El amor en los tiempos del cólera', 'Romance', 16.75);
+INSERT INTO libros (titulo, genero, precio) VALUES ('El hobbit', 'Fantasía', 23.99);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Los pilares de la Tierra', 'Histórico', 27.50);
+INSERT INTO libros (titulo, genero, precio) VALUES ('El alquimista', 'Ficción espiritual', 12.99);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Drácula', 'Terror', 18.25);
+INSERT INTO libros (titulo, genero, precio) VALUES ('La naranja mecánica', 'Distopía', 16.99);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Don Quijote de la Mancha', 'Clásico', 24.50);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Los miserables', 'Drama', 28.75);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Anna Karenina', 'Romance', 19.99);
+INSERT INTO libros (titulo, genero, precio) VALUES ('El retrato de Dorian Gray', 'Ficción gótica', 15.25);
+INSERT INTO libros (titulo, genero, precio) VALUES ('Guerra y paz', 'Histórico', 30.50);
+
+
+
